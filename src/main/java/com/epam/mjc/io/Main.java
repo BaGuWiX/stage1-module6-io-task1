@@ -23,9 +23,9 @@ public class Main {
         Profile profile = fileReader.getDataFromFile(file);
 
         // Print the profile data
-        System.out.println("Name: " + profile.getName());
-        System.out.println("Age: " + profile.getAge());
-        System.out.println("Email: " + profile.getEmail());
-        System.out.println("Phone: " + profile.getPhone());
+        System.err.println("Name: " + profile.getName());
+        System.err.println("Age: " + profile.getAge());
+        System.err.println("Email: " + profile.getEmail());
+        System.err.println("Phone: " + profile.getPhone());
     }
 }
